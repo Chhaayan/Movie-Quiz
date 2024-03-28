@@ -1,0 +1,118 @@
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  form {
+    width: 40vw;
+    max-width: 500px;
+    min-width: 200px;
+    margin: 50px auto;
+    margin-right: 80px;
+    padding-bottom: 1em;
+    float:right;
+  }
+  
+  fieldset {
+    border: none;
+    padding: 2rem 1rem;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  
+  fieldset:last-of-type {
+    border-bottom: none;
+  }
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input,
+  textarea,
+  select {
+    margin: 0 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: rgb(250, 249, 246);
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    border-radius: 100px;
+  }
+  
+
+  form{
+    padding-left:30px;
+    padding-right:30px;
+    border-style: solid;
+    border-radius:10px;
+    border-color:#2c1701;
+    border-width:2px;
+    background-color:rgba(241, 194, 125,80%);
+  }    
+  
+  *{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  body{
+    background-color: #E6C2BF;
+  }
+  #Username::placeholder{
+    padding-left: 15px;
+    font-family: cursive;
+  }
+  #Password::placeholder{
+    padding-left: 15px;
+    font-family: cursive;
+  }
+  button{
+    margin: 20px 0 0 0;
+    width: 100%;
+    padding:10px;
+    border-radius: 100px;
+    font-family: cursive;
+    font-size: 15px;
+  }
+  <header>
+  <ul>
+      <li><a href="default.asp">Home</a></li>
+      <li><a href="news.asp">News</a></li>
+      <li><a href="contact.asp">Contact</a></li>
+      <li><a href="about.asp">About</a></li>
+  </ul>
+</header>
+background-image: radial-gradient(#FF2511,#800020);
+background-image: radial-gradient(#FF4500,#DF362D,#FF8300);
+
+
+
+<h5>First slide label</h5>
+            <p>Join the millions of movie fans who have already enjoyed our movie quiz and start your journey to becoming a movie trivia champion today!</p>
+
+            <h5>First slide label</h5>
+            <p>Compete against your friends or other movie buffs from around the world and see who knows the most about movies!</p>
+
+            <div class="icon-down">
+          <ion-icon  name="chevron-down-outline"></ion-icon>
+        </div>
